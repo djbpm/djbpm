@@ -1,4 +1,5 @@
-<img src="assets/IMG_1036.gif" width="800">
+<img src="assets/IMG_1036.gif" width="700">
+
 
 
 ## Kailas
