@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="assets/IMG_1036.gif" width="900" alt="OSINT Demo">
-</p>
+<img src="assets/IMG_1036.gif" width="800">
+
 
 ## Kailas
 
