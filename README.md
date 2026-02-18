@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/demo.gif" width="900" alt="OSINT Demo"/>
+  <img src="assets/IMG_1036.gif" width="900" alt="OSINT Demo">
 </p>
 
 ## Kailas
