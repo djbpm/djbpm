@@ -1,4 +1,4 @@
-<img src="assets/IMG_1036.gif" width="700">
+<img src="assets/IMG_1036.gif" width="650">
 
 
 
