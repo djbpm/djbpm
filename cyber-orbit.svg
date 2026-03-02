@@ -1,1 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="-300 -300 600 600"
+     xmlns="http://www.w3.org/2000/svg">
 
+<style>
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.space { fill: #0b1220; }
+.earth { fill: #1e3a8a; }
+.orbit {
+  fill: none;
+  stroke: #334155;
+  stroke-dasharray: 4 6;
+  opacity: 0.6;
+}
+
+.rot1 { animation: rotate 8s linear infinite; transform-origin: center; }
+.rot2 { animation: rotate 14s linear infinite; transform-origin: center; }
+.rot3 { animation: rotate 22s linear infinite; transform-origin: center; }
+</style>
+
+<rect x="-300" y="-300" width="600" height="600" class="space"/>
+
+<circle cx="0" cy="0" r="60" class="earth"/>
+
+<circle cx="0" cy="0" r="120" class="orbit"/>
+<g class="rot1">
+  <circle cx="0" cy="-120" r="8" fill="#38bdf8"/>
+</g>
+
+<circle cx="0" cy="0" r="180" class="orbit"/>
+<g class="rot2">
+  <circle cx="0" cy="-180" r="8" fill="#fbbf24"/>
+</g>
+
+<circle cx="0" cy="0" r="240" class="orbit"/>
+<g class="rot3">
+  <circle cx="0" cy="-240" r="8" fill="#ef4444"/>
+</g>
+
+</svg>
