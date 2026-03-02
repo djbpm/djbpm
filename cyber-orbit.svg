@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-300 -300 600 600">
+  <style>
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.orbit { fill: none; stroke: #334155; stroke-dasharray: 4 6; opacity: 0.6; }
+
+.rot1 { animation: rotate 8s linear infinite; transform-origin: 0px 0px; }
+.rot2 { animation: rotate 14s linear infinite; transform-origin: 0px 0px; }
+.rot3 { animation: rotate 22s linear infinite; transform-origin: 0px 0px; }
+</style>
+
+<rect x="-300" y="-300" width="600" height="600" fill="#0b1220"/>
+
+<circle cx="0" cy="0" r="60" fill="#1e3a8a"/>
+
+<circle cx="0" cy="0" r="120" class="orbit"/>
+<g class="rot1">
+  <circle cx="0" cy="-120" r="8" fill="#38bdf8"/>
+</g>
+
+<circle cx="0" cy="0" r="180" class="orbit"/>
+<g class="rot2">
+  <circle cx="0" cy="-180" r="8" fill="#fbbf24"/>
+</g>
+
+<circle cx="0" cy="0" r="240" class="orbit"/>
+<g class="rot3">
+  <circle cx="0" cy="-240" r="8" fill="#ef4444"/>
+</g>
+
+</svg>
+Jot something down
