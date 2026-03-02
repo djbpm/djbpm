@@ -1,5 +1,4 @@
-<svg viewBox="-300 -300 600 600"
-     xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="-300 -300 600 600" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 @keyframes rotate {
@@ -8,9 +7,11 @@
 }
 
 .orbit { fill: none; stroke: #334155; stroke-dasharray: 4 6; opacity: 0.6; }
-.rot1 { animation: rotate 8s linear infinite; transform-box: fill-box; transform-origin: center; }
-.rot2 { animation: rotate 14s linear infinite; transform-box: fill-box; transform-origin: center; }
-.rot3 { animation: rotate 22s linear infinite; transform-box: fill-box; transform-origin: center; }
+
+.rot1 { animation: rotate 8s linear infinite; transform-origin: 0px 0px; }
+.rot2 { animation: rotate 14s linear infinite; transform-origin: 0px 0px; }
+.rot3 { animation: rotate 22s linear infinite; transform-origin: 0px 0px; }
+
 </style>
 
 <rect x="-300" y="-300" width="600" height="600" fill="#0b1220"/>
@@ -33,3 +34,4 @@
 </g>
 
 </svg>
+Jot something down
